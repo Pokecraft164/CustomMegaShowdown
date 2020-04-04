@@ -1071,6 +1071,10 @@ let BattleFormatsData = {
 	typhlosion: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+  },
+  typhlosionmega: {
+    isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	totodile: {
 		isNonstandard: "Past",
