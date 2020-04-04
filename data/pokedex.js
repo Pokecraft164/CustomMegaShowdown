@@ -3180,7 +3180,7 @@ let BattlePokedex = {
 		weightkg: 79.5,
 		color: "Yellow",
 		eggGroups: ["Field"],
-		requiredItem: "Galladite",
+		requiredItem: "Friend Ball",
 	},
 	totodile: {
 		num: 158,

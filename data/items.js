@@ -2174,10 +2174,16 @@ let BattleItems = {
 	"friendball": {
 		id: "friendball",
 		name: "Friend Ball",
+    megaStone: "Typhlosion-Mega",
+		megaEvolves: "Typhlosion",
+    itemUser: ["Typhlosion"],
+    onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 153,
 		num: 497,
 		gen: 2,
-		isPokeball: true,
 		desc: "A Poke Ball that makes caught Pokemon more friendly.",
 	},
 	"fullincense": {
@@ -2200,17 +2206,7 @@ let BattleItems = {
 		spritenum: 616,
 		megaStone: "Gallade-Mega",
 		megaEvolves: "Gallade",
-    megaStone: "Typhlosion-Mega",
-		megaEvolves: "Typhlosion",
-    megaStone: "Meganium-Mega",
-    megaEvolves: "Meganium",
-    megaStone: "Feraligatr-Mega",
-    megaEvolves: "Feraligatr",
-    megaStone: "Electivire-Mega",
-    megaEvolves: "Electivire",
-    megaStone: "Magmortar-Mega",
-    megaEvolves: "Magmortar",
-		itemUser: ["Gallade", "Typhlosion", "Meganium", "Feraligatr", "Electivire", "Magmortar"],
+		itemUser: ["Gallade"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
@@ -2438,6 +2434,13 @@ let BattleItems = {
 	"greatball": {
 		id: "greatball",
 		name: "Great Ball",
+    megaStone: "Feraligatr-Mega",
+		megaEvolves: "Feraligatr",
+		itemUser: ["Feraligatr"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 174,
 		num: 3,
 		gen: 1,
