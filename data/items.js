@@ -2627,10 +2627,16 @@ let BattleItems = {
 	"healball": {
 		id: "healball",
 		name: "Heal Ball",
+    megaStone: "Starmie-Mega",
+		megaEvolves: "Starmie",
+		itemUser: ["Starmie"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 188,
 		num: 14,
 		gen: 4,
-		isPokeball: true,
 		desc: "A remedial Poke Ball that restores the caught Pokemon's HP and status problem.",
 	},
 	"heatrock": {
@@ -2647,10 +2653,16 @@ let BattleItems = {
 	"heavyball": {
 		id: "heavyball",
 		name: "Heavy Ball",
+    megaStone: "Stoutland-Mega",
+		megaEvolves: "Stoutland",
+		itemUser: ["Stoutland"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 194,
 		num: 495,
 		gen: 2,
-		isPokeball: true,
 		desc: "A Poke Ball for catching very heavy Pokemon.",
 	},
 	"heavydutyboots": {
@@ -3498,10 +3510,16 @@ let BattleItems = {
 	"luxuryball": {
 		id: "luxuryball",
 		name: "Luxury Ball",
+    megaStone: "Nidoking-Mega",
+		megaEvolves: "Nidoking",
+		itemUser: ["Nidoking"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 266,
 		num: 11,
 		gen: 3,
-		isPokeball: true,
 		desc: "A comfortable Poke Ball that makes a caught wild Pokemon quickly grow friendly.",
 	},
 	"lycaniumz": {
@@ -4876,10 +4894,16 @@ let BattleItems = {
 	"quickball": {
 		id: "quickball",
 		name: "Quick Ball",
+    megaStone: "Swellow-Mega",
+		megaEvolves: "Swellow",
+		itemUser: ["Swellow"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 372,
 		num: 15,
 		gen: 4,
-		isPokeball: true,
 		desc: "A Poke Ball that provides a better catch rate at the start of a wild encounter.",
 	},
 	"quickclaw": {

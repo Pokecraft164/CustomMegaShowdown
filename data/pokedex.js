@@ -926,7 +926,7 @@ let BattlePokedex = {
 		weightkg: 62,
 		color: "Purple",
 		eggGroups: ["Monster", "Field"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Luxury Ball",
 	},
 	clefairy: {
 		num: 35,
@@ -2514,7 +2514,7 @@ let BattlePokedex = {
 		weightkg: 80,
 		color: "Purple",
 		eggGroups: ["Water 3"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Heal Ball",
 	},
 	mrmime: {
 		num: 122,
@@ -4986,7 +4986,7 @@ let BattlePokedex = {
 		weightkg: 19.8,
 		color: "Blue",
 		eggGroups: ["Flying"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Quick Ball",
 	},
 	wingull: {
 		num: 278,
@@ -8952,7 +8952,7 @@ let BattlePokedex = {
 		weightkg: 61,
 		color: "Gray",
 		eggGroups: ["Field"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Heavy Ball",
 	},
 	purrloin: {
 		num: 509,
