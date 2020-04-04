@@ -6855,6 +6855,7 @@ let BattlePokedex = {
 		baseSpecies: "Infernape",
 		forme: "Mega",
 		types: ["Fire", "Fighting"],
+    genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 98, atk: 140, def: 71, spa: 84, spd: 71, spe: 144},
 		abilities: {0: "Moxie"},
 		heightm: 1.2,

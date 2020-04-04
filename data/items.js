@@ -2236,7 +2236,7 @@ let BattleItems = {
 		num: 756,
 		gen: 6,
 		isNonstandard: "Past",
-		desc: "If held by a Gallade or any of the Custom Megas, this item allows them to Mega Evolve in battle.",
+		desc: "If held by a Gallade, this item allows it to Mega Evolve in battle.",
 	},
 	"ganlonberry": {
 		id: "ganlonberry",
