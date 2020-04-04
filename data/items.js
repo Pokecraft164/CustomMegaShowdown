@@ -7372,7 +7372,7 @@ let BattleItems = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 756,
+		num: 807,
 		gen: 6,
 		isNonstandard: "Past",
 		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",

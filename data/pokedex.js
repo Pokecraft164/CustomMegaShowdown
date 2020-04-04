@@ -2977,7 +2977,7 @@ let BattlePokedex = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["mewtwomegax", "mewtwomegay"],
+		otherFormes: ["mewtwomegax", "mewtwomegay",],
 	},
 	mewtwomegax: {
 		num: 150,
