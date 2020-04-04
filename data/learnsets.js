@@ -1946,6 +1946,7 @@ let BattleLearnsets = {
 			assurance: ["7L23", "6L35", "5L35", "4L35"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
+      bravebird: ["7L1"],
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
 			curse: ["7V"],
