@@ -3119,7 +3119,7 @@ let BattlePokedex = {
 		weightkg: 79.5,
 		color: "Yellow",
 		eggGroups: ["Field"],
-		requiredItem: "Typhlosionite",
+		requiredItem: "Galladite",
 	},
 	totodile: {
 		num: 158,

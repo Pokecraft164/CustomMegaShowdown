@@ -2200,7 +2200,9 @@ let BattleItems = {
 		spritenum: 616,
 		megaStone: "Gallade-Mega",
 		megaEvolves: "Gallade",
-		itemUser: ["Gallade"],
+    megaStone: "Typhlosion-Mega",
+		megaEvolves: "Typhlosion",
+		itemUser: ["Gallade", "Typhlosion"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
