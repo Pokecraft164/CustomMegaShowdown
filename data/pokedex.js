@@ -3112,6 +3112,7 @@ let BattlePokedex = {
 		baseSpecies: "Typhlosion",
 		forme: "Mega",
 		types: ["Fire", "Dark"],
+    genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 80, def: 90, spa: 166, spd: 90, spe: 130},
 		abilities: {0: "Sheer Force"},
 		heightm: 1.7,
