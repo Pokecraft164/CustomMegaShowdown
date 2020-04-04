@@ -15856,6 +15856,7 @@ let BattleLearnsets = {
 	starmie: {
 		learnset: {
 			allyswitch: ["7T"],
+      amnesia: ["7L1"],
 			attract: ["7V"],
 			avalanche: ["4M"],
 			bide: ["7V"],
@@ -15882,6 +15883,7 @@ let BattleLearnsets = {
 			hail: ["7M", "6M", "5M", "4M", "3M"],
 			harden: ["8V", "7V"],
 			headbutt: ["8V"],
+      healbell: [""]
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			hydropump: ["7L1", "6L1"],
 			hyperbeam: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],

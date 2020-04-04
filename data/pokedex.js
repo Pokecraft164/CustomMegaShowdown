@@ -2485,6 +2485,21 @@ let BattlePokedex = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Water 3"],
+    otherFormes: ["starmiemega"],
+	},
+  starmiemega: {
+		num: 121,
+		name: "Starmie-Mega",
+		baseSpecies: "Starmie",
+		forme: "Mega",
+		types: ["Water", "Psychic"],
+		baseStats: {hp: 60, atk: 70, def: 100, spa: 150, spd: 105, spe: 130},
+		abilities: {0: "Regenerator"},
+		heightm: 1.1,
+		weightkg: 80,
+		color: "Purple",
+		eggGroups: ["Water 3"],
+		requiredItem: "Galladite",
 	},
 	mrmime: {
 		num: 122,
@@ -8909,7 +8924,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
     otherFormes: ["stoutlandmega"],
 	},
-  swellowmega: {
+  stoutlandmega: {
 		num: 508,
 		name: "Stoutland-Mega",
 		baseSpecies: "Stoutland",
