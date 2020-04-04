@@ -15883,7 +15883,7 @@ let BattleLearnsets = {
 			hail: ["7M", "6M", "5M", "4M", "3M"],
 			harden: ["8V", "7V"],
 			headbutt: ["8V"],
-      healbell: [""]
+      healbell: ["7L1"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			hydropump: ["7L1", "6L1"],
 			hyperbeam: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -15939,6 +15939,7 @@ let BattleLearnsets = {
 			watergun: ["8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			waterpulse: ["7T", "6T", "4M", "3M"],
 			whirlpool: ["7V", "4M"],
+      wish: ["7L1"],
 			wonderroom: ["7T", "6T", "5T"],
 			zapcannon: ["7V"],
 		},
