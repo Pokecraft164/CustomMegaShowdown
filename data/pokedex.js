@@ -475,7 +475,7 @@ let BattlePokedex = {
 		weightkg: 38,
 		color: "Brown",
 		eggGroups: ["Flying"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	ekans: {
 		num: 23,
@@ -926,7 +926,7 @@ let BattlePokedex = {
 		weightkg: 62,
 		color: "Purple",
 		eggGroups: ["Monster", "Field"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	clefairy: {
 		num: 35,
@@ -2514,7 +2514,7 @@ let BattlePokedex = {
 		weightkg: 80,
 		color: "Purple",
 		eggGroups: ["Water 3"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	mrmime: {
 		num: 122,
@@ -3796,7 +3796,7 @@ let BattlePokedex = {
 		weightkg: 79.5,
 		color: "Pink",
 		eggGroups: ["Monster", "Water 1"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	misdreavus: {
 		num: 200,
@@ -4986,7 +4986,7 @@ let BattlePokedex = {
 		weightkg: 19.8,
 		color: "Blue",
 		eggGroups: ["Flying"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	wingull: {
 		num: 278,
@@ -6804,7 +6804,7 @@ let BattlePokedex = {
 		weightkg: 310,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	chimchar: {
 		num: 390,
@@ -6862,7 +6862,7 @@ let BattlePokedex = {
 		weightkg: 55,
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	piplup: {
 		num: 393,
@@ -6919,7 +6919,7 @@ let BattlePokedex = {
 		weightkg: 84.5,
 		color: "Blue",
 		eggGroups: ["Water 1", "Field"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	starly: {
 		num: 396,
@@ -8952,7 +8952,7 @@ let BattlePokedex = {
 		weightkg: 61,
 		color: "Gray",
 		eggGroups: ["Field"],
-		requiredItem: "Galladite",
+		requiredItem: "Tyranitarite",
 	},
 	purrloin: {
 		num: 509,
