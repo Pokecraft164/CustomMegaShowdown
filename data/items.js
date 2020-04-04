@@ -7364,7 +7364,7 @@ let BattleItems = {
   "typhlosionite": {
 		id: "typhlosionite",
 		name: "Typhlosionite",
-		spritenum: 607, //tyranitarite
+		spritenum: 607, // tyranitarite
 		megaStone: "Typhlosion-Mega",
 		megaEvolves: "Typhlosion",
 		itemUser: ["Typhlosion"],
@@ -7372,8 +7372,8 @@ let BattleItems = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: -2,
-		gen: 6,
+		num: 807,
+		gen: 7,
 		isNonstandard: "Past",
 		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",
 	},

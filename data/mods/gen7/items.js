@@ -547,6 +547,10 @@ let BattleItems = {
 		inherit: true,
 		desc: "Evolves Pikachu into Raichu or Alolan Raichu, Eevee into Jolteon, and Eelektrik into Eelektross when used.",
 	},
+  typhlosionite: {
+		inherit: true,
+		isNonstandard: null,
+  },
 	tyranitarite: {
 		inherit: true,
 		isNonstandard: null,
