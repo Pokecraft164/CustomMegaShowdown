@@ -468,7 +468,7 @@ let BattlePokedex = {
 		name: "Fearow-Mega",
 		baseSpecies: "Fearow",
 		forme: "Mega",
-		types: ["Normal", "Fighting"],
+		types: ["Normal", "Flying"],
 		baseStats: {hp: 65, atk: 130, def: 75, spa: 57, spd: 70, spe: 145},
 		abilities: {0: "Moxie"},
 		heightm: 1.2,
