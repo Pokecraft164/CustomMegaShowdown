@@ -7361,6 +7361,22 @@ let BattleItems = {
 		gen: 2,
 		desc: "Holder's Psychic-type attacks have 1.2x power.",
 	},
+  "typhlosionite": {
+		id: "typhlosionite",
+		name: "Typhlosionite",
+		spritenum: 616,
+		megaStone: "Typhlosion-Mega",
+		megaEvolves: "Typhlosion",
+		itemUser: ["Typhlosion"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 756,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",
+	},
 	"tyranitarite": {
 		id: "tyranitarite",
 		name: "Tyranitarite",
