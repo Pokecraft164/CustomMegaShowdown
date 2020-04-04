@@ -475,7 +475,7 @@ let BattlePokedex = {
 		weightkg: 38,
 		color: "Brown",
 		eggGroups: ["Flying"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Beast Ball",
 	},
 	ekans: {
 		num: 23,
@@ -3122,7 +3122,7 @@ let BattlePokedex = {
 		weightkg: 100.5,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		requiredItem: "Galladite",
+		requiredItem: "Nest Ball",
 	},
 	cyndaquil: {
 		num: 155,
@@ -3238,7 +3238,7 @@ let BattlePokedex = {
 		weightkg: 88.8,
 		color: "Blue",
 		eggGroups: ["Field"],
-		requiredItem: "Galladite",
+		requiredItem: "Great Ball",
 	},
 	sentret: {
 		num: 161,
@@ -3796,7 +3796,7 @@ let BattlePokedex = {
 		weightkg: 79.5,
 		color: "Pink",
 		eggGroups: ["Monster", "Water 1"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Dive Ball",
 	},
 	misdreavus: {
 		num: 200,
@@ -6804,7 +6804,7 @@ let BattlePokedex = {
 		weightkg: 310,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Dusk Ball",
 	},
 	chimchar: {
 		num: 390,
@@ -6862,7 +6862,7 @@ let BattlePokedex = {
 		weightkg: 55,
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Cherish Ball",
 	},
 	piplup: {
 		num: 393,
@@ -6919,7 +6919,7 @@ let BattlePokedex = {
 		weightkg: 84.5,
 		color: "Blue",
 		eggGroups: ["Water 1", "Field"],
-		requiredItem: "Tyranitarite",
+		requiredItem: "Lure Ball",
 	},
 	starly: {
 		num: 396,
@@ -7980,7 +7980,7 @@ let BattlePokedex = {
 		weightkg: 138.6,
 		color: "Yellow",
 		eggGroups: ["Human-Like"],
-		requiredItem: "Galladite",
+		requiredItem: "Ultra Ball",
 	},
 	magmortar: {
 		num: 467,
@@ -8011,7 +8011,7 @@ let BattlePokedex = {
 		weightkg: 68,
 		color: "Red",
 		eggGroups: ["Human-Like"],
-		requiredItem: "Galladite",
+		requiredItem: "Poke Ball",
 	},
 	togekiss: {
 		num: 468,

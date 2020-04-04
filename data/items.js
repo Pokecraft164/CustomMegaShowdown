@@ -378,10 +378,16 @@ let BattleItems = {
 	"beastball": {
 		id: "beastball",
 		name: "Beast Ball",
+    megaStone: "Fearow-Mega",
+		megaEvolves: "Fearow",
+		itemUser: ["Fearow"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 661,
 		num: 851,
 		gen: 7,
-		isPokeball: true,
 		desc: "A special Poke Ball designed to catch Ultra Beasts.",
 	},
 	"beedrillite": {
@@ -843,10 +849,16 @@ let BattleItems = {
 	"cherishball": {
 		id: "cherishball",
 		name: "Cherish Ball",
+    megaStone: "Infernape-Mega",
+		megaEvolves: "Infernape",
+		itemUser: ["Infernape"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 64,
 		num: 16,
 		gen: 4,
-		isPokeball: true,
 		desc: "A rare Poke Ball that has been crafted to commemorate an occasion.",
 	},
 	"chestoberry": {
@@ -1313,9 +1325,15 @@ let BattleItems = {
 		id: "diveball",
 		name: "Dive Ball",
 		spritenum: 101,
+    megaStone: "Slowking-Mega",
+		megaEvolves: "Slowking",
+		itemUser: ["Slowking"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 7,
 		gen: 3,
-		isPokeball: true,
 		desc: "A Poke Ball that works especially well on Pokemon that live underwater.",
 	},
 	"domefossil": {
@@ -1505,10 +1523,16 @@ let BattleItems = {
 	"duskball": {
 		id: "duskball",
 		name: "Dusk Ball",
+    megaStone: "Torterra-Mega",
+		megaEvolves: "Torterra",
+		itemUser: ["Torterra"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 115,
 		num: 13,
 		gen: 4,
-		isPokeball: true,
 		desc: "A Poke Ball that makes it easier to catch wild Pokemon at night or in caves.",
 	},
 	"duskstone": {
@@ -2444,7 +2468,6 @@ let BattleItems = {
 		spritenum: 174,
 		num: 3,
 		gen: 1,
-		isPokeball: true,
 		desc: "A high-performance Ball that provides a higher catch rate than a Poke Ball.",
 	},
 	"grepaberry": {
@@ -3442,10 +3465,16 @@ let BattleItems = {
 	"lureball": {
 		id: "lureball",
 		name: "Lure Ball",
+    megaStone: "Empoleon-Mega",
+		megaEvolves: "Empoleon",
+		itemUser: ["Empoleon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 264,
 		num: 494,
 		gen: 2,
-		isPokeball: true,
 		desc: "A Poke Ball for catching Pokemon hooked by a Rod when fishing.",
 	},
 	"lustrousorb": {
@@ -4056,10 +4085,16 @@ let BattleItems = {
 	"nestball": {
 		id: "nestball",
 		name: "Nest Ball",
+    megaStone: "Meganium-Mega",
+		megaEvolves: "Meganium",
+		itemUser: ["Meganium"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 303,
 		num: 8,
 		gen: 3,
-		isPokeball: true,
 		desc: "A Poke Ball that works especially well on weaker Pokemon in the wild.",
 	},
 	"netball": {
@@ -4526,10 +4561,16 @@ let BattleItems = {
 	"pokeball": {
 		id: "pokeball",
 		name: "Poke Ball",
+    megaStone: "Magmortar-Mega",
+		megaEvolves: "Magmortar",
+		itemUser: ["Magmortar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 345,
 		num: 4,
 		gen: 1,
-		isPokeball: true,
 		desc: "A device for catching wild Pokemon. It is designed as a capsule system.",
 	},
 	"pomegberry": {
@@ -7396,25 +7437,7 @@ let BattleItems = {
 		spritenum: 607,
 		megaStone: "Tyranitar-Mega",
 		megaEvolves: "Tyranitar",
-    megaStone: "Slowking-Mega",
-    megaEvolves: "Slowking",
-    megaStone: "Fearow-Mega",
-    megaEvolves: "Fearow",
-    megaStone: "Infernape-Mega",
-    megaEvolves: "Infernape",
-    megaStone: "Empoleon-Mega",
-    megaEvolves: "Empoleon",
-    megaStone: "Torterra-Mega",
-    megaEvolves: "Torterra",
-    megaStone: "Swellow-Mega",
-    megaEvolves: "Swellow",
-    megaStone: "Stoutland-Mega",
-    megaEvolves: "Stoutland",
-    megaStone: "Starmie-Mega",
-    megaEvolves: "Starmie",
-    megaStone: "Nidoking-Mega",
-    megaEvolves: "Nidoking",
-		itemUser: ["Tyranitar", "Slowking", "Fearow", "Infernape", "Empoleon", "Torterra", "Swellow", "Stoutland", "Starmie", "Nidoking"],
+		itemUser: ["Tyranitar"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
@@ -7427,10 +7450,16 @@ let BattleItems = {
 	"ultraball": {
 		id: "ultraball",
 		name: "Ultra Ball",
+    megaStone: "Electivire-Mega",
+		megaEvolves: "Electivire",
+		itemUser: ["Electivire"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 521,
 		num: 2,
 		gen: 1,
-		isPokeball: true,
 		desc: "An ultra-performance Ball that provides a higher catch rate than a Great Ball.",
 	},
 	"ultranecroziumz": {
