@@ -7377,7 +7377,7 @@ let BattleItems = {
 		isNonstandard: "Past",
 		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",
 	},
-	"tyranitarite": {
+  "tyranitarite": {
 		id: "tyranitarite",
 		name: "Tyranitarite",
 		spritenum: 607,
