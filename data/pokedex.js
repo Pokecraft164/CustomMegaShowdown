@@ -45,7 +45,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["venusaurmega"],
 	},
-	venusaurmega: {
+  venusaurmega: {
 		num: 3,
 		name: "Venusaur-Mega",
 		baseSpecies: "Venusaur",
