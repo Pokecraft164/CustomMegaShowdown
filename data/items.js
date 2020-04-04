@@ -2202,7 +2202,11 @@ let BattleItems = {
 		megaEvolves: "Gallade",
     megaStone: "Typhlosion-Mega",
 		megaEvolves: "Typhlosion",
-		itemUser: ["Gallade", "Typhlosion"],
+    megaStone: "Meganium-Mega",
+    megaEvolves: "Meganium",
+    megaStone: "Feraligatr-Mega",
+    megaEvolves: "Feraligatr",
+		itemUser: ["Gallade", "Typhlosion", "Meganium", "Feraligatr"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
@@ -2210,7 +2214,7 @@ let BattleItems = {
 		num: 756,
 		gen: 6,
 		isNonstandard: "Past",
-		desc: "If held by a Gallade, this item allows it to Mega Evolve in battle.",
+		desc: "If held by a Gallade or any of the Custom Megas, this item allows them to Mega Evolve in battle.",
 	},
 	"ganlonberry": {
 		id: "ganlonberry",
