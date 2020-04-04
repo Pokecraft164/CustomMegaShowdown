@@ -2206,7 +2206,11 @@ let BattleItems = {
     megaEvolves: "Meganium",
     megaStone: "Feraligatr-Mega",
     megaEvolves: "Feraligatr",
-		itemUser: ["Gallade", "Typhlosion", "Meganium", "Feraligatr"],
+    megaStone: "Electivire-Mega",
+    megaEvolves: "Electivire",
+    megaStone: "Magmortar-Mega",
+    megaEvolves: "Magmortar",
+		itemUser: ["Gallade", "Typhlosion", "Meganium", "Feraligatr", "Electivire", "Magmortar"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;

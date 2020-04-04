@@ -16931,6 +16931,7 @@ let BattleLearnsets = {
 			brickbreak: ["7M", "6M", "5M", "4M"],
 			bulldoze: ["7M", "6M", "5M"],
 			captivate: ["4M"],
+      closecombat: ["7L1"],
 			chargebeam: ["7M", "6M", "5M", "4M"],
 			confide: ["7M", "6M"],
 			covet: ["7T", "6T", "5T"],
@@ -17000,6 +17001,7 @@ let BattleLearnsets = {
 			torment: ["7M", "6M", "5M", "4M"],
 			toxic: ["7M", "6M", "5M", "4M"],
 			voltswitch: ["7M", "6M", "5M"],
+      volttackle: ["7L1"],
 			wildcharge: ["7M", "6M", "5M"],
 		},
 		eventData: [
