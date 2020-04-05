@@ -38571,6 +38571,7 @@ let BattleLearnsets = {
 			faketears: ["8M"],
 			flash: ["6M", "5M", "4M"],
 			fling: ["8M", "7M", "6M", "5M", "4M"],
+      freezedry: ["7L1"],
 			frostbreath: ["8L30", "7M", "6M", "5M"],
 			frustration: ["7M", "6M", "5M", "4M"],
 			gigaimpact: ["8M", "7M", "6M", "5M", "4M"],
