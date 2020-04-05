@@ -602,12 +602,7 @@ let BattleItems = {
 		id: "blukberry",
 		name: "Bluk Berry",
 		spritenum: 44,
-		isBerry: true,
-		naturalGift: {
-			basePower: 90,
-			type: "Fire",
-		},
-		onEat: false,
+		
 		num: 165,
 		gen: 3,
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
@@ -5103,10 +5098,16 @@ let BattleItems = {
 	"repeatball": {
 		id: "repeatball",
 		name: "Repeat Ball",
+    megaStone: "Raticate-Mega",
+		megaEvolves: "Raticate",
+		itemUser: ["Raticate"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		spritenum: 401,
 		num: 9,
 		gen: 3,
-		isPokeball: true,
 		desc: "A Poke Ball that works well on Pokemon species that were previously caught.",
 	},
 	"ribbonsweet": {
