@@ -62833,6 +62833,7 @@ let BattleLearnsets = {
 			round: ["8M", "7M", "6M"],
 			secretpower: ["6M"],
 			shockwave: ["7T", "6T"],
+      slackoff: ["7L1"],
 			sleeptalk: ["8M", "7M", "6M"],
 			sludgebomb: ["8M", "7M", "6M"],
 			sludgewave: ["8M", "7M", "6M"],

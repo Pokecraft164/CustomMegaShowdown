@@ -6381,10 +6381,14 @@ let BattleItems = {
 	"tr03": {
 		id: "tr03",
 		name: "TR03",
-		fling: {
-			basePower: 110,
-		},
 		spritenum: 731,
+    megaStone: "Goodra-Mega",
+		megaEvolves: "Goodra",
+		itemUser: ["Goodra"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1133,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Hydro Pump. One use.",
