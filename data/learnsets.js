@@ -60524,6 +60524,7 @@ let BattleLearnsets = {
 			leer: ["8L1", "7L1", "6L1"],
 			lowkick: ["8M", "7T", "6T"],
 			lowsweep: ["8M", "8L16", "7M", "7L1", "6M", "6L70"],
+      machpunch: ["7L1"],
 			megakick: ["8M"],
 			megapunch: ["8M"],
 			nightslash: ["8L0"],
