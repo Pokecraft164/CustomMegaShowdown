@@ -21622,6 +21622,7 @@ let BattleLearnsets = {
 			airslash: ["8M", "8L18", "7L35", "6L37", "5L37", "4L32"],
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
+      boomburst: ["7L1"],
 			calmmind: ["8M"],
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
