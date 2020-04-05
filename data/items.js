@@ -4228,8 +4228,12 @@ let BattleItems = {
 		id: "oldamber",
 		name: "Old Amber",
 		spritenum: 314,
-		fling: {
-			basePower: 100,
+		megaStone: "Rotom-Mega",
+		megaEvolves: "Rotom",
+		itemUser: ["Rotom"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
 		},
 		num: 103,
 		gen: 3,
@@ -6332,10 +6336,14 @@ let BattleItems = {
 	"tr00": {
 		id: "tr00",
 		name: "TR00",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Weezing-Mega",
+		megaEvolves: "Weezing",
+		itemUser: ["Weezing"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1130,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Swords Dance. One use.",
@@ -6343,10 +6351,14 @@ let BattleItems = {
 	"tr01": {
 		id: "tr01",
 		name: "TR01",
-		fling: {
-			basePower: 85,
-		},
 		spritenum: 721,
+    megaStone: "Noctowl-Mega",
+		megaEvolves: "Noctowl",
+		itemUser: ["Noctowl"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1131,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Body Slam. One use.",
@@ -6354,10 +6366,14 @@ let BattleItems = {
 	"tr02": {
 		id: "tr02",
 		name: "TR02",
-		fling: {
-			basePower: 90,
-		},
 		spritenum: 730,
+    megaStone: "Girafarig-Mega",
+		megaEvolves: "Girafarig",
+		itemUser: ["Girafarig"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1132,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Flamethrower. One use.",

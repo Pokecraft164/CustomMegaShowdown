@@ -2352,7 +2352,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Weezing-Galar", "weezingmega"],
     },
-  weezing: {
+  weezingmega: {
 		num: 110,
 		name: "Weezing-Mega",
 		baseSpecies: "Weezing",
@@ -2364,7 +2364,7 @@ let BattlePokedex = {
 		weightkg: 9.5,
 		color: "Purple",
 		eggGroups: ["Amorphous"],
-		requiredItem: "Heavy Ball",
+		requiredItem: "TR00",
 	},
 	weezinggalar: {
 		num: 110,
@@ -3346,7 +3346,7 @@ let BattlePokedex = {
 		weightkg: 40.8,
 		color: "Brown",
 		eggGroups: ["Flying"],
-		requiredItem: "Ampharosite",
+		requiredItem: "TR01",
 	},
 	ledyba: {
 		num: 165,
@@ -3913,13 +3913,13 @@ let BattlePokedex = {
 		baseSpecies: "Girafarig",
 		forme: "Mega",
 		types: ["Psychic", "Ghost"],
-		baseStats: {hp: 70, atk: 95, def: 105, spa: 165, spd: 110, spe: 45},
-		abilities: {0: "Mold Breaker"},
-		heightm: 1.4,
-		weightkg: 61.5,
+		baseStats: {hp: 70, atk: 95, def: 80, spa: 120, spd: 80, spe: 110},
+		abilities: {0: "Cursed Body"},
+		heightm: 1.5,
+		weightkg: 41.5,
 		color: "Yellow",
-		eggGroups: ["Monster", "Field"],
-		requiredItem: "Ampharosite",
+		eggGroups: ["Field"],
+		requiredItem: "TR02",
 	},
 	pineco: {
 		num: 204,
@@ -8288,7 +8288,7 @@ let BattlePokedex = {
 		weightkg: 0.3,
 		color: "Red",
 		eggGroups: ["Amorphous"],
-		requiredItem: "Heavy Ball",
+		requiredItem: "Old Amber",
 	},
 	rotomheat: {
 		num: 479,
