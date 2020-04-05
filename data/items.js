@@ -601,8 +601,14 @@ let BattleItems = {
 	"blukberry": {
 		id: "blukberry",
 		name: "Bluk Berry",
-		spritenum: 44,
-		
+		megaStone: "Arbok-Mega",
+		megaEvolves: "Arbok",
+		itemUser: ["Arbok"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+    spritenum: 44,
 		num: 165,
 		gen: 3,
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",

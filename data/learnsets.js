@@ -14261,6 +14261,7 @@ let BattleLearnsets = {
 			facade: ["8M", "8V", "7M", "6M", "5M", "4M", "3M"],
 			fireblast: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			flamethrower: ["8M", "8V", "7M", "6M", "5M", "4M", "3M"],
+      flareblitz: ["7L1"],
 			flash: ["6M", "5M", "4M", "3M"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			gigaimpact: ["8M", "7M", "6M", "5M", "4M"],
