@@ -6486,10 +6486,14 @@ let BattleItems = {
 	"tr10": {
 		id: "tr10",
 		name: "TR10",
-		fling: {
-			basePower: 100,
-		},
 		spritenum: 725,
+    megaStone: "Luxray-Mega",
+		megaEvolves: "Luxray",
+		itemUser: ["Luxray"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1140,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Earthquake. One use.",
@@ -6497,10 +6501,14 @@ let BattleItems = {
 	"tr11": {
 		id: "tr11",
 		name: "TR11",
-		fling: {
-			basePower: 90,
-		},
 		spritenum: 734,
+    megaStone: "Pyroar-Mega",
+		megaEvolves: "Pyroar",
+		itemUser: ["Pyroar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1141,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Psychic. One use.",
@@ -6508,10 +6516,14 @@ let BattleItems = {
 	"tr12": {
 		id: "tr12",
 		name: "TR12",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 734,
+    megaStone: "Emboar-Mega",
+		megaEvolves: "Emboar",
+		itemUser: ["Emboar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1142,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Agility. One use.",
@@ -6519,10 +6531,14 @@ let BattleItems = {
 	"tr13": {
 		id: "tr13",
 		name: "TR13",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Kingdra-Mega",
+		megaEvolves: "Kingdra",
+		itemUser: ["Kingdra"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1143,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Focus Energy. One use.",
@@ -6530,10 +6546,14 @@ let BattleItems = {
 	"tr14": {
 		id: "tr14",
 		name: "TR14",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Dracovish-Mega",
+		megaEvolves: "Dracovish",
+		itemUser: ["Dracovish"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1144,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Metronome. One use.",
@@ -6541,10 +6561,14 @@ let BattleItems = {
 	"tr15": {
 		id: "tr15",
 		name: "TR15",
-		fling: {
-			basePower: 110,
-		},
 		spritenum: 730,
+    megaStone: "Haxorus-Mega",
+		megaEvolves: "Haxorus",
+		itemUser: ["Haxorus"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1145,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Fire Blast. One use.",
@@ -6552,10 +6576,14 @@ let BattleItems = {
 	"tr16": {
 		id: "tr16",
 		name: "TR16",
-		fling: {
-			basePower: 80,
-		},
 		spritenum: 731,
+    megaStone: "Blissey-Mega",
+		megaEvolves: "Blissey",
+		itemUser: ["Blissey"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1146,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Waterfall. One use.",
@@ -6563,10 +6591,14 @@ let BattleItems = {
 	"tr17": {
 		id: "tr17",
 		name: "TR17",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 734,
+    megaStone: "Exploud-Mega",
+		megaEvolves: "Exploud",
+		itemUser: ["Exploud"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1147,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Amnesia. One use.",
