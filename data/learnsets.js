@@ -17014,7 +17014,6 @@ let BattleLearnsets = {
 			torment: ["7M", "6M", "5M", "4M"],
 			toxic: ["7M", "6M", "5M", "4M"],
 			voltswitch: ["7M", "6M", "5M"],
-      volttackle: ["7L1"],
 			wildcharge: ["7M", "6M", "5M"],
 		},
 		eventData: [
@@ -62850,7 +62849,6 @@ let BattleLearnsets = {
 			round: ["8M", "7M", "6M"],
 			secretpower: ["6M"],
 			shockwave: ["7T", "6T"],
-      slackoff: ["7L1"],
 			sleeptalk: ["8M", "7M", "6M"],
 			sludgebomb: ["8M", "7M", "6M"],
 			sludgewave: ["8M", "7M", "6M"],

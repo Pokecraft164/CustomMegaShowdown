@@ -74,7 +74,7 @@ let BattleFormats = {
 		name: 'Standard NatDex',
 		desc: "The standard ruleset for all National Dex tiers",
 		ruleset: ['Obtainable', 'Team Preview', '+Past', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
-		unbanlist: ['Melmetal', 'Meltan'],
+		unbanlist: ['Meltan'],
 		onValidateSet(set) {
 			// These Pokemon are still unobtainable
 			const unobtainables = [
@@ -96,7 +96,7 @@ let BattleFormats = {
 		name: 'Obtainable',
 		desc: "Makes sure the team is possible to obtain in-game.",
 		ruleset: ['Obtainable Moves', 'Obtainable Abilities', 'Obtainable Formes', 'Obtainable Misc'],
-		banlist: ['Unreleased', 'Unobtainable', 'Nonexistent'],
+		banlist: ['Unreleased', 'Unobtainable', 'Nonexistent', "Magearna", "Melmetal"],
 		// Mostly hardcoded in team-validator.ts
 		onValidateTeam(team, format) {
 			let kyuremCount = 0;
