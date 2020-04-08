@@ -63072,6 +63072,7 @@ let BattleLearnsets = {
 			seedbomb: ["8M", "7T", "6T"],
 			shadowball: ["8M", "7M", "6M"],
 			shadowclaw: ["8M", "8L0", "7M", "7L1", "6M", "6L55"],
+      shadowsneak: ["7L1"],
 			skillswap: ["8M", "7T", "6T"],
 			sleeptalk: ["8M", "7M", "6M"],
 			snore: ["8M", "7T", "6T"],

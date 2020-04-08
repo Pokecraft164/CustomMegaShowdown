@@ -2229,8 +2229,8 @@ let BattleItems = {
 		id: "galladite",
 		name: "Galladite",
 		spritenum: 616,
-		megaStone: "Gallade-Mega",
-		megaEvolves: "Gallade",
+		megaStone: ["Gallade-Mega"],
+		megaEvolves: ["Gallade"],
 		itemUser: ["Gallade"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -6696,9 +6696,6 @@ let BattleItems = {
 	"tr24": {
 		id: "tr24",
 		name: "TR24",
-		fling: {
-			basePower: 120,
-		},
 		spritenum: 736,
 		num: 1154,
 		gen: 8,
