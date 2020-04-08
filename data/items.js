@@ -6697,6 +6697,13 @@ let BattleItems = {
 		id: "tr24",
 		name: "TR24",
 		spritenum: 736,
+    megaStone: "Trevenant-Mega",
+		megaEvolves: "Trevenant",
+		itemUser: ["Trevenant"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1154,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Outrage. One use.",
@@ -6704,10 +6711,14 @@ let BattleItems = {
 	"tr25": {
 		id: "tr25",
 		name: "TR25",
-		fling: {
-			basePower: 80,
-		},
 		spritenum: 734,
+    megaStone: "Dragapult-Mega",
+		megaEvolves: "Dragapult",
+		itemUser: ["Dragapult"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1155,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Psyshock. One use.",
@@ -6715,10 +6726,14 @@ let BattleItems = {
 	"tr26": {
 		id: "tr26",
 		name: "TR26",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Passimian-Mega",
+		megaEvolves: "Passimian",
+		itemUser: ["Passimian"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1156,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Endure. One use.",
@@ -6726,10 +6741,14 @@ let BattleItems = {
 	"tr27": {
 		id: "tr27",
 		name: "TR27",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Conkeldurr-Mega",
+		megaEvolves: "Conkeldurr",
+		itemUser: ["Conkeldurr"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1157,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Sleep Talk. One use.",
@@ -6737,10 +6756,14 @@ let BattleItems = {
 	"tr28": {
 		id: "tr28",
 		name: "TR28",
-		fling: {
-			basePower: 120,
-		},
 		spritenum: 727,
+    megaStone: "Magnezone-Mega",
+		megaEvolves: "Magnezone",
+		itemUser: ["Magnezone"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1158,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Megahorn. One use.",
@@ -6748,10 +6771,14 @@ let BattleItems = {
 	"tr29": {
 		id: "tr29",
 		name: "TR29",
-		fling: {
-			basePower: 10,
-		},
 		spritenum: 721,
+    megaStone: "Incineroar-Mega",
+		megaEvolves: "Incineroar",
+		itemUser: ["Incineroar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
 		num: 1159,
 		gen: 8,
 		desc: "Teaches certain Pokemon the move Baton Pass. One use.",

@@ -64381,6 +64381,7 @@ let BattleLearnsets = {
 			heatcrash: ["8M"],
 			heatwave: ["8M", "7T"],
 			hiddenpower: ["7M"],
+      honeclaws: ["7L1"],
 			hyperbeam: ["8M", "7M"],
 			ironhead: ["8M", "7T"],
 			knockoff: ["7T"],
