@@ -517,7 +517,7 @@ export class TeamValidator {
 		}
 
 		ability = dex.getAbility(set.ability);
-		problem = this.checkAbility(set, ability, setHas);
+		problem = this.Ability(set, ability, setHas);
 		if (problem) problems.push(problem);
 
 		if (set.moves && Array.isArray(set.moves)) {
